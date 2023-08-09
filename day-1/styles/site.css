@@ -1,0 +1,114 @@
+/*
+    CSS is pplied using selectors
+    A selector can be a html tag or it's id or it's class
+    Writing styles
+    
+    tag-selector {
+        style-name:value;
+    }
+
+    #id-selector{
+    }
+*/
+
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* 
+    margin: top right bottom left; 
+    padding: top right bottom left; 
+
+    margin: top-bottom, left-right; 
+    padding: top-bottom, left-right; 
+*/
+#header {
+    /* border: 1px solid black; */
+    margin: 8px 12px;
+    padding: 8px 12px;
+}
+
+#header-text {
+    line-height: 1.25;
+    font-size: 1.4rem;
+}
+
+#header-main {
+    margin: 8px 0px;
+    padding: 8px 0px;
+    font-size: 3.5rem;
+}
+
+main {
+    margin: 8px 12px;
+    padding: 8px 16px;
+}
+
+.main-section {
+    margin-top: 30px;
+}
+
+.main-section-title {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.main-section-text {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.main-section-list {
+    font-size: 1.2rem;
+    margin-left: 12px;
+}
+
+.section-container {
+    margin-left: 12px;
+}
+
+.list-item {
+    margin-bottom: 6px;
+}
+
+.list-item:hover {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+table {
+    width: 500px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding: 8px;
+}
+
+table>thead>tr {
+    text-align: left;
+}
+
+table>thead>tr>th {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+table>tbody>tr>td {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 4px 0;
+}
+
+footer{
+    text-align: center;
+    padding: 12px;
+    font-size: 1.2rem;
+}
