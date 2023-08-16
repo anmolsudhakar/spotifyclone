@@ -213,5 +213,65 @@ transition: .5s linear;
   background: #36e2ec;
   margin-right:3px;
   border-radius: 10px 10px 0px 0px;
+  animation : unset;
 }
+
+ 
+.master_play .wave .wave1:nth-child(2){
+height:13px;
+margin-right: 3.5px;
+animation-delay: .4s;
+}
+.master_play .wave .wave1:nth-child(3){
+height:8px;
+animation-delay: .8s;
+}
+
+@keyframes wave {
+  0%{
+    height:10px;
+  }
+  50%{
+    height:15px;
+  }
+  100%{
+    height:10px;
+  }
+
+}
+
+.master_play img{
+width: 35px;
+height: 35px;
+}
+.master_play h5{
+width: 130px;
+border: 1px solid white;
+margin-left: 15px;
+color: white;
+line-height: 17px;;
+
+}
+
+
+
+
+
+
+
+/* javaScript classes */
+
+.master_play .active1 .wave1 {
+animation: wave .5s linear infinite;
+}
+
+ 
+.master_play .active1 .wave1:nth-child(2){
+  
+  animation-delay: .4s;
+  }
+  .master_play .active1 .wave1:nth-child(3){
+  
+  animation-delay: .8s;
+  }
 
